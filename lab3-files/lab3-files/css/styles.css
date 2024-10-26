@@ -1,0 +1,117 @@
+/* Default Page Styling */
+body {
+    font-family: Arial, sans-serif; /* Default page font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif; /* Heading font */
+    color: #2c3e50; /* Dark blue for headings */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0 0 15px;
+  }
+  
+  /* Links Styling */
+  a {
+    color: #2980b9; /* Link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1abc9c; /* Hover color */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Main content styling */
+  main {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border: 1px solid #ccc; /* Border around main content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* "About the Author" Section */
+  #author {
+    background-color: #ecf0f1; /* Light background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  #author h2 {
+    color: #e74c3c; /* Red for contrast */
+  }
+  
+  /* Form Section */
+  #footer section {
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 8px;
+  }
+  
+  #footer input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  #footer button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #footer button:hover {
+    background-color: #16a085; /* Darker hover color */
+  }
+  
+  /* Comments Section */
+  #comments {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Code Block Styling */
+  code {
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #c0392b; /* Red for code */
+  }
+  
+  
